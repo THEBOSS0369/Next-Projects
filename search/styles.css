@@ -1,0 +1,113 @@
+form {
+    position: relative;
+}
+
+.fa-search {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    top: 173px;
+    right: 268px;
+    z-index: 2;
+}
+
+.search-bar {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 110px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.rounded-search {
+    display: inline-block;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 584px;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.button-google {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+img {
+    padding: 25px;
+    display:block; 
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+.heading {
+    margin-left: 40px; 
+    font-size: 20px; 
+    margin-top: 17px;
+    color: #d93025;
+}
+
+.abcd {
+    margin-top: 25px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced-search {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.advanced-input {
+    margin-top: 22px;
+    font-size: 15px;
+}
+
+.form-control {
+    width: 500px;
+}
+
+.btn-advanced {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 550px;
+    margin: 10px;
+}
